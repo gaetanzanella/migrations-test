@@ -1,0 +1,7 @@
+ALTER TABLE TIERS
+  ADD (
+      T_NATIONALITE nchar(3) DEFAULT NULL,
+      T_EMAIL nvarchar(250) DEFAULT NULL,
+      T_LANGUE nchar(3) DEFAULT NULL,
+      T_PASSEPORT nvarchar(35) DEFAULT NULL
+  );
