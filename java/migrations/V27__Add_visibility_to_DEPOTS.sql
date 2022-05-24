@@ -1,0 +1,4 @@
+ALTER TABLE DEPOTS
+  ADD (
+      GDE_DISPOBTQ tinyint(1) NOT NULL
+  );
