@@ -1,0 +1,8 @@
+node_modules
+/dist
+/deploy/dist
+.env
+!/tests/.env
+/src/generated
+dev/docker/.docker/
+/generated/*.json.tpl
